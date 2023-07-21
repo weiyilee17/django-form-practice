@@ -4,5 +4,6 @@ from . import views
 # Reserved key word for django
 urlpatterns = [
     # name should be the same as function name in views
-    path('', views.index, name='index')
+    path('', views.index, name='index'),
+    path('about/', views.about, name='about'),
 ]
